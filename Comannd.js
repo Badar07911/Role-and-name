@@ -10,8 +10,9 @@ newmember.addRole(role).catch(()={});
 }
 
 else
-
-{newmember.removeRole(role).catch(()={});} 
+{
+newmember.removeRole(role).catch(()={});
+} 
   }
 });
 
