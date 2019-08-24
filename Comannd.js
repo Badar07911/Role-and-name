@@ -21,4 +21,4 @@ else
 newmember.removeRole(role).catch(()={});
 } 
 
-client.login('NjE0NzgzOTAyNDA5Njg3MDUw.XWEgYg.Dc7MgF9PhVkaDtKCZkW1ZyZkn_g') 
+ 
