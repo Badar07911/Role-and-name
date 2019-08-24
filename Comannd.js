@@ -9,7 +9,7 @@ client.login('NjE0NzgzOTAyNDA5Njg3MDUw.XWEgYg.Dc7MgF9PhVkaDtKCZkW1ZyZkn_g')
 //--------------------------------------------------------------------------
 
 client.on(guildMember,Update',(oldMember,newmember)->
-{
+} 
 var role = newMember.guild.roles.find('name','BG');
 if(newMember.nickname != null && newMember.nickname.startswith(bg))
 {
