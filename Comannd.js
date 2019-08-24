@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client
 
 client.on(guildMember,Update',(old Member,newmember)->
-{
+
 var role =newMember.guild.roles.find('name','BG');
 if(newMember.nickname != null && newMember.nickname.startswith (bg))
 {
