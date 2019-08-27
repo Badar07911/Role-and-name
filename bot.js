@@ -6,7 +6,6 @@ client.on('ready', () => {
 
 
 var prefix = "@! 『 𝐭𝖌 | 𝙱𝕒𝘥𝕒ᖇ 』#٩٥٢٦"
-
 if(message.content.startsWith(prefix))
          client.channels.find('id', '582093431770185745').send(` **فيه واحد يبيك**  `)
 ) 
